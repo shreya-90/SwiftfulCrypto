@@ -11,8 +11,6 @@
 		1AE1AB4A2CC517A60094166A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1AB492CC517A60094166A /* ContentView.swift */; };
 		1AE1AB4C2CC517A70094166A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE1AB4B2CC517A70094166A /* Assets.xcassets */; };
 		1AE1AB4F2CC517A70094166A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE1AB4E2CC517A70094166A /* Preview Assets.xcassets */; };
-		1AE1AB512CC517A70094166A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1AB502CC517A70094166A /* Persistence.swift */; };
-		1AE1AB542CC517A70094166A /* SwiftfulCrypto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1AB522CC517A70094166A /* SwiftfulCrypto.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +19,6 @@
 		1AE1AB492CC517A60094166A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1AE1AB4B2CC517A70094166A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AE1AB4E2CC517A70094166A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1AE1AB502CC517A70094166A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		1AE1AB532CC517A70094166A /* SwiftfulCrypto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftfulCrypto.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +54,6 @@
 				1AE1AB472CC517A60094166A /* SwiftfulCryptoApp.swift */,
 				1AE1AB492CC517A60094166A /* ContentView.swift */,
 				1AE1AB4B2CC517A70094166A /* Assets.xcassets */,
-				1AE1AB502CC517A70094166A /* Persistence.swift */,
-				1AE1AB522CC517A70094166A /* SwiftfulCrypto.xcdatamodeld */,
 				1AE1AB4D2CC517A70094166A /* Preview Content */,
 			);
 			path = SwiftfulCrypto;
@@ -143,8 +137,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AE1AB542CC517A70094166A /* SwiftfulCrypto.xcdatamodeld in Sources */,
-				1AE1AB512CC517A70094166A /* Persistence.swift in Sources */,
 				1AE1AB4A2CC517A60094166A /* ContentView.swift in Sources */,
 				1AE1AB482CC517A60094166A /* SwiftfulCryptoApp.swift in Sources */,
 			);
@@ -352,19 +344,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		1AE1AB522CC517A70094166A /* SwiftfulCrypto.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				1AE1AB532CC517A70094166A /* SwiftfulCrypto.xcdatamodel */,
-			);
-			currentVersion = 1AE1AB532CC517A70094166A /* SwiftfulCrypto.xcdatamodel */;
-			path = SwiftfulCrypto.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 1AE1AB3C2CC517A60094166A /* Project object */;
 }
