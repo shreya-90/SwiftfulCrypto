@@ -43,6 +43,9 @@
 		1AE1ABA32CD7B3950094166A /* CoinDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1ABA22CD7B3950094166A /* CoinDetailModel.swift */; };
 		1AE1ABA52CD89BED0094166A /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1ABA42CD89BED0094166A /* DetailViewModel.swift */; };
 		1AE1ABA72CD89C260094166A /* CoinDetailDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1ABA62CD89C260094166A /* CoinDetailDataService.swift */; };
+		1AE1ABA92CD8DBBB0094166A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1ABA82CD8DBBB0094166A /* ChartView.swift */; };
+		1AE1ABAB2CD8FB690094166A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1ABAA2CD8FB690094166A /* Date.swift */; };
+		1AE1ABAD2CDA31EF0094166A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1ABAC2CDA31EF0094166A /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +86,9 @@
 		1AE1ABA22CD7B3950094166A /* CoinDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailModel.swift; sourceTree = "<group>"; };
 		1AE1ABA42CD89BED0094166A /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		1AE1ABA62CD89C260094166A /* CoinDetailDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailDataService.swift; sourceTree = "<group>"; };
+		1AE1ABA82CD8DBBB0094166A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		1AE1ABAA2CD8FB690094166A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		1AE1ABAC2CDA31EF0094166A /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,8 @@
 				1AE1AB6D2CC7ACC70094166A /* PreviewProvider.swift */,
 				1AE1AB6F2CC7C7270094166A /* Double.swift */,
 				1AE1AB842CCACD0C0094166A /* UIApplication.swift */,
+				1AE1ABAA2CD8FB690094166A /* Date.swift */,
+				1AE1ABAC2CDA31EF0094166A /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -247,7 +255,6 @@
 			children = (
 				1AE1AB9F2CD7A36E0094166A /* Views */,
 				1AE1AB9E2CD7A3690094166A /* View Models */,
-				1AE1ABA02CD7A39A0094166A /* DetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -263,6 +270,8 @@
 		1AE1AB9F2CD7A36E0094166A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1AE1ABA02CD7A39A0094166A /* DetailView.swift */,
+				1AE1ABA82CD8DBBB0094166A /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -340,9 +349,11 @@
 				1AE1AB982CD399800094166A /* PortfolioContainer.xcdatamodeld in Sources */,
 				1AE1AB872CCB8B600094166A /* StatisticModel.swift in Sources */,
 				1AE1AB752CC8FB7D0094166A /* CoinDataService.swift in Sources */,
+				1AE1ABA92CD8DBBB0094166A /* ChartView.swift in Sources */,
 				1AE1AB6C2CC7A59E0094166A /* CoinRowView.swift in Sources */,
 				1AE1AB722CC81FB30094166A /* HomeViewModel.swift in Sources */,
 				1AE1AB4A2CC517A60094166A /* ContentView.swift in Sources */,
+				1AE1ABAB2CD8FB690094166A /* Date.swift in Sources */,
 				1AE1AB812CCA39130094166A /* LocalFileManager.swift in Sources */,
 				1AE1AB8D2CD2246A0094166A /* MarketDataModel.swift in Sources */,
 				1AE1AB932CD24CF90094166A /* XMarkButton.swift in Sources */,
@@ -362,6 +373,7 @@
 				1AE1AB8F2CD2317E0094166A /* MarketDataService.swift in Sources */,
 				1AE1AB672CC777320094166A /* CircleButtonAnimationView.swift in Sources */,
 				1AE1AB7F2CCA1F670094166A /* CoinImageViewModel.swift in Sources */,
+				1AE1ABAD2CDA31EF0094166A /* String.swift in Sources */,
 				1AE1AB6E2CC7ACC70094166A /* PreviewProvider.swift in Sources */,
 				1AE1AB912CD244C50094166A /* PortfolioView.swift in Sources */,
 				1AE1AB702CC7C7270094166A /* Double.swift in Sources */,
